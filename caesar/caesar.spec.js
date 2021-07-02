@@ -5,7 +5,7 @@ test('works with single letters', () => {
 });
 test.skip('works with words', () => {
   expect(caesar('Aaa', 1)).toBe('Bbb');
-});
+}); 
 test.skip('works with phrases', () => {
   expect(caesar('Hello, World!', 5)).toBe('Mjqqt, Btwqi!');
 });
